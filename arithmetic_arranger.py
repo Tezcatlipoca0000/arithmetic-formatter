@@ -72,7 +72,6 @@ def arithmetic_arranger(problems, solved=False):
 
     # Line 3
     for i in range(len(op3)) :
-        print('testingggggg', i, len(op3))
         max_len = max([len(op1[i]), len(op2[i])]) + 2
         for j in range(max_len) :
             arranged_problems = arranged_problems + '-'
